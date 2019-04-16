@@ -1,0 +1,30 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type = "text/css" href = "styles.css">
+
+  <title>horloge</title>
+
+</head>
+<body>
+
+
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+      
+    </div>
+    <div class="alarm">
+        <input type="datetime-local" id="timeAlarm"/>
+        <br>
+        <button onclick="setAlarm(this);" id="alarmButton">STOP</button>
+      </div>
+
+<script src="script.js"></script>
+</body>
+</html>

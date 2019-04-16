@@ -1,0 +1,74 @@
+body {
+    background: -webkit-radial-gradient(left top, ellipse farthest-corner, rgb(184, 31, 207) 18%, rgb(52, 52, 186) 48%, rgb(9, 219, 58) 82%);
+    padding: 0%;
+    margin: 0%;
+}
+
+#canard {
+    background-image: url(images/canard.jpg);
+}
+
+#chat {
+    background-image: url(images/chat.jpg);
+}
+
+#cheval {
+    background-image: url(images/cheval.jpg);
+}
+
+#chien {
+    background-image: url(images/chien.jpg);
+}
+
+#dinde {
+    background-image: url(images/dinde.jpg);
+}
+
+#vache {
+    background-image: url(images/vache.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 45vh;
+}
+
+.key {
+    border: 5px, solid, black;
+    border-radius: 5px;
+    margin: 2rem;
+    font-size: 1.5rem;
+    transition: all 0.09s;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: black;
+    opacity: 40%;
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: blueviolet;
+}

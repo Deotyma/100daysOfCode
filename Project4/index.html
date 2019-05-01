@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Phrase Hunter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="overlay" class="start">
+            <h2 class="title"></h2>
+            <h1 id="game-over-message"></h1>
+            <button id="btn__reset">Старт</button>
+        </div>
+
+        <div id="banner" class="section">
+            <h2 class="header"><img src="images/kolo_fortuny_ru.png" alt="logo en russe"></h2>
+        </div>
+
+        <div id="phrase" class="section">
+            <ul></ul>
+        </div>
+
+        <div id="qwerty" class="section">
+            <div class="keyrow">
+                <button class="key">я</button>
+                <button class="key">ш</button>
+                <button class="key">е</button>
+                <button class="key">р</button>
+                <button class="key">т</button>
+                <button class="key">ы</button>
+                <button class="key">у</button>
+                <button class="key">и</button>
+                <button class="key">о</button>
+                <button class="key">п</button>
+                <button class="key">ю</button>
+                <button class="key">щ</button>
+                <button class="key">э</button>
+            </div>
+
+            <div class="keyrow">
+                <button class="key">а</button>
+                <button class="key">с</button>
+                <button class="key">д</button>
+                <button class="key">ф</button>
+                <button class="key">г</button>
+                <button class="key">ч</button>
+                <button class="key">й</button>
+                <button class="key">к</button>
+                <button class="key">л</button>
+                <button class="key">ь</button>
+                <button class="key">ж</button>
+            </div>
+
+            <div class="keyrow">
+                <button class="key">з</button>
+                <button class="key">х</button>
+                <button class="key">ц</button>
+                <button class="key">в</button>
+                <button class="key">б</button>
+                <button class="key">н</button>
+                <button class="key">м</button>
+                <button class="key">ё</button>
+                <button class="key">ъ</button>
+            </div>
+        </div>
+
+        <div id="scoreboard" class="section">
+            <ol>
+                <li class="tries"><img src="images/liveHeart.png" alt="Heart Icon" height="35" width="30"></li>
+                <li class="tries"><img src="images/liveHeart.png" alt="Heart Icon" height="35" width="30"></li>
+                <li class="tries"><img src="images/liveHeart.png" alt="Heart Icon" height="35" width="30"></li>
+                <li class="tries"><img src="images/liveHeart.png" alt="Heart Icon" height="35" width="30"></li>
+                <li class="tries"><img src="images/liveHeart.png" alt="Heart Icon" height="35" width="30"></li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="js/Phrase.js"></script>
+<script type="text/javascript" src="js/Game.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>

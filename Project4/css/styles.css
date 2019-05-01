@@ -2,7 +2,7 @@
     --color-win: #78CF82;
     --color-lose: #D94545;
     --color-start: #4dd0e1;
-    --color-start-light: #7af0ff;
+    --color-start-light: linear-gradient(to right bottom, #7aefff, #63e1ff, #5fd0ff, #70beff, #8ba9ff, #b69bfa, #df8be8, #ff79ca, #ff88a3, #ffa97e, #ffd36a, #fffc78);
     --color-start-dark: #44bccb;
     --color-neutral: #445069;
     --color-neutral-light: #f4f4f4;
@@ -17,11 +17,13 @@
 /* main */
 
 * {
+    
     box-sizing: border-box;
     font-family: 'Gabriela', serif;
 }
 
 body {
+    background-image: linear-gradient(to right bottom, #7aefff, #63e1ff, #5fd0ff, #70beff, #8ba9ff, #b69bfa, #df8be8, #ff79ca, #ff88a3, #ffa97e, #ffd36a, #fffc78);
     justify-content: space-evenly;
     flex-direction: column;
     display: flex;
